@@ -44,7 +44,7 @@ firstrow = 2,
 fieldterminator = ',',
 tablock 
 );
-truncate table bronze.erp_px_ca_g1v2
+truncate table bronze.erp_px_cat_g1v2
 bulk insert bronze.erp_px_cat_g1v2 
 from 'C:\Users\dinesh gowd\Documents\SQL Server Management Studio 22\datasets\source_erp\PX_CAT_G1V2.csv'
 with (
